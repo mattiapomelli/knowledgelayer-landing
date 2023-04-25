@@ -11,7 +11,13 @@ export const Hero = () => {
         Build on a solid foundation and focus on what matters for your edtech
         platform
       </p>
-      <Button>Read the manifesto</Button>
+      <a
+        href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Button>Read the manifesto</Button>
+      </a>
     </Container>
   );
 };

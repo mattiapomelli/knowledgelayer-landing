@@ -11,7 +11,9 @@ export const ContactSection = () => {
         Whether you are a learner or teacher, or building an edtech platform, or
         just want to discuss about education, would love to hear from you.
       </p>
-      <Button>Say hi</Button>
+      <a href="mailto:mattiapomelli@gmail.com">
+        <Button>Say hi</Button>
+      </a>
     </Container>
   );
 };

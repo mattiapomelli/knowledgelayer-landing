@@ -9,7 +9,13 @@ export const VisionSection = () => {
           An ecosystem for people who want to expand and share their
           <b> knowledge</b>
         </p>
-        <Button>Read the manifesto</Button>
+        <a
+          href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button>Read the manifesto</Button>
+        </a>
       </Container>
     </section>
   );
