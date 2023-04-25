@@ -18,6 +18,7 @@ export const IntroducationSecion = () => {
             src="/protocol.svg"
             layout="fill"
             alt="Protocol architecture"
+            priority
           />
         </div>
         <div className="relative h-60 w-full md:hidden">
@@ -25,6 +26,7 @@ export const IntroducationSecion = () => {
             src="/protocol-mobile.svg"
             layout="fill"
             alt="Protocol architecture"
+            priority
           />
         </div>
       </Container>
