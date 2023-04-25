@@ -1,4 +1,9 @@
-import { AcademicCapIcon } from "@heroicons/react/24/outline";
+import {
+  AcademicCapIcon,
+  CheckBadgeIcon,
+  CurrencyDollarIcon,
+  StarIcon,
+} from "@heroicons/react/24/outline";
 import { ReactNode } from "react";
 
 import { Container } from "./layout/container";
@@ -35,26 +40,22 @@ export const FeaturesSection = () => {
         <FeatureCard
           icon={<AcademicCapIcon />}
           title="Course listing and NFT-based sales"
-          description="Create courses and sell them through NFTs that give access to the
-        content"
+          description="Create courses and sell them through NFTs that give access to the content"
         />
         <FeatureCard
-          icon={<AcademicCapIcon />}
+          icon={<CurrencyDollarIcon />}
           title="Escrow and dispute resolution"
-          description="Create courses and sell them through NFTs that give access to the
-        content"
+          description="Secure payments and resolve disputes between buyers and sellers"
         />
         <FeatureCard
-          icon={<AcademicCapIcon />}
+          icon={<StarIcon />}
           title="Reviews and reputation"
-          description="Create courses and sell them through NFTs that give access to the
-        content"
+          description="Reviews for courses and teachers aggregated in a unified reputation across platforms"
         />
         <FeatureCard
-          icon={<AcademicCapIcon />}
+          icon={<CheckBadgeIcon />}
           title="Verifiable credentials"
-          description="Create courses and sell them through NFTs that give access to the
-        content"
+          description="Issue certificates and badges for the completion of courses to prove students' skills"
         />
       </div>
     </Container>
