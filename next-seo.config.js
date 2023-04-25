@@ -1,6 +1,7 @@
-const title = "My App";
-const description = "This is my awesome app";
-const url = "https://beta.cryvia.xyz/";
+const title = "KnowledgeLayer - The toolkit for web3 educational platforms";
+const description =
+  "KnowledgeLayer is a toolkit for building web3 educational platforms. Build on a solid foundation and focus on what matters for your edtech platform";
+const url = "";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
