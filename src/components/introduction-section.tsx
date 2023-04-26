@@ -8,9 +8,9 @@ export const IntroducationSecion = () => {
       <Container className="flex flex-col items-center gap-10 py-20 text-center">
         <p className="max-w-[34rem] text-3xl">
           KnowledgeLayer is an
-          <b> open </b>
-          protocol and
-          <b> toolkit </b>
+          <b> open protocol </b>
+          and
+          <b> developer toolkit </b>
           for anyone to build edtech platforms on
         </p>
         <div className="relative hidden h-60 w-full md:block">
