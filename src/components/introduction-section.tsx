@@ -15,7 +15,7 @@ export const IntroducationSecion = () => {
         </p>
         <div className="relative hidden h-60 w-full md:block">
           <Image
-            src="/protocol.svg"
+            src="/protocol-architecture.svg"
             layout="fill"
             alt="Protocol architecture"
             priority
@@ -23,7 +23,7 @@ export const IntroducationSecion = () => {
         </div>
         <div className="relative h-60 w-full md:hidden">
           <Image
-            src="/protocol-mobile.svg"
+            src="/protocol-architecture-mobile.svg"
             layout="fill"
             alt="Protocol architecture"
             priority
