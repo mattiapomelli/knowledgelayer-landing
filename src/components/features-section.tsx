@@ -31,13 +31,13 @@ const FeatureCard = ({ title, description, icon }: FeatureCardProps) => {
 
 export const FeaturesSection = () => {
   return (
-    <Container className="flex flex-col items-center gap-10 pt-20 pb-32">
+    <Container className="flex flex-col items-center gap-10 overflow-hidden pt-20 pb-32">
       <h3 className="max-w-[30rem] text-center text-3xl font-bold">
         The key components for educational platforms
       </h3>
       <p className="max-w-[28rem] text-center text-lg text-base-content-neutral">
-        Avoid building your backend from scratch and focus on what makes your
-        edtech platform stand out.
+        Avoid building your backend from scratch. Reduce development costs and
+        time, and go to market faster.
       </p>
       <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
         <FeatureCard
@@ -63,9 +63,9 @@ export const FeaturesSection = () => {
       </div>
       <ArrowDownGraphic className="my-6 h-32 w-32" />
       <div className="relative">
-        <p className="max-w-[34rem] text-center text-3xl">
-          Reduce development costs and time, and go to market
-          <b> faster</b>
+        <p className="max-w-[30rem] text-center text-3xl">
+          Focus on what makes your platform
+          <b> stand out</b>
         </p>
         <ExplosionGraphic className="absolute -left-8 h-14 w-14" />
         <ExplosionGraphic className="absolute -right-10 top-10 h-12 w-12 rotate-[140deg]" />
