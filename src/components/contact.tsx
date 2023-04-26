@@ -8,9 +8,9 @@ export const ContactSection = () => {
         Get in touch
       </h3>
       <p className="max-w-[32rem] text-lg text-base-content-neutral">
-        Are you learner or a teacher? Are you are building an educational
-        platform? Just want to share ideas and discuss about education? Would
-        love to hear from you.
+        Building an educational platform? Are you a learner or a teacher? Just
+        want to share ideas or discuss about education? Would love to hear from
+        you.
       </p>
       <a href="mailto:mattiapomelli@gmail.com">
         <Button>Say hi</Button>
