@@ -1,7 +1,9 @@
-const title = "KnowledgeLayer - The toolkit for web3 educational platforms";
+const title = "KnowledgeLayer - The open protocol for educational platforms";
 const description =
-  "KnowledgeLayer is a toolkit for building web3 educational platforms. Build on a solid foundation and focus on what matters for your edtech platform";
-const url = "";
+  "KnowledgeLayer is an open protocol and developer toolkit for building web3 educational platforms.";
+const url = "https://knowledgelayer-landing.vercel.app/";
+
+const image = "https://knowledgelayer-landing.vercel.app/og-image.svg";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -14,10 +16,15 @@ export default {
     site_name: "My App",
     title,
     description,
+    images: [
+      {
+        url: image,
+        alt: "KnowledgeLayer - The open protocol for educational platforms",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
-    handle: "@handle",
-    site: "@site",
     cardType: "summary_large_image",
   },
 };
