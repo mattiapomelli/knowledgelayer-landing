@@ -33,7 +33,7 @@ export const ComponentsSection = () => {
   return (
     <>
       <section>
-        <Container className="flex flex-col items-center gap-10 overflow-hidden pt-20 pb-32">
+        <Container className="flex flex-col items-center gap-10 pt-20 pb-32">
           <h3 className="max-w-[30rem] text-center text-3xl font-bold">
             The key components for educational platforms
           </h3>

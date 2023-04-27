@@ -5,8 +5,8 @@ import { Container } from "./layout/container";
 
 export const Hero = () => {
   return (
-    <section>
-      <Container className="relative flex flex-col items-center gap-6 overflow-hidden py-36 text-center">
+    <section className="relative">
+      <Container className="relative flex flex-col items-center gap-6 py-36 text-center">
         <h1 className="max-w-[32rem] text-4xl font-bold">
           The toolkit for building web3 educational platforms
         </h1>
