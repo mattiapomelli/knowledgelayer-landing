@@ -12,7 +12,7 @@ export const Hero = () => {
         </h1>
         <p className="max-w-[28rem] text-lg text-base-content-neutral">
           Build on a solid foundation and focus on what matters for your edtech
-          platform
+          platform.
         </p>
         <a
           href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"

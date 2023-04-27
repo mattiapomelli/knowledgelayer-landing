@@ -11,7 +11,7 @@ export const BenefitsSection = () => {
         <p className="max-w-[28rem] text-center text-lg text-base-content-neutral">
           Bring uncensorable content, efficient payments, user-owned credentials
           and reputation to your users thanks to the power of blockchain
-          technology
+          technology.
         </p>
         <a
           href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"

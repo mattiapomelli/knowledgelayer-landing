@@ -45,22 +45,22 @@ export const ComponentsSection = () => {
             <ComponentCard
               icon={<AcademicCapIcon />}
               title="Course listing and NFT-based sales"
-              description="Create courses and sell them through NFTs that give access to the content"
+              description="Create courses and sell them through NFTs that give access to the content."
             />
             <ComponentCard
               icon={<CurrencyDollarIcon />}
               title="Escrow and dispute resolution"
-              description="Securely handle payments between students and teachers, and solve possible disputes"
+              description="Securely handle payments between students and teachers, and solve possible disputes."
             />
             <ComponentCard
               icon={<CheckBadgeIcon />}
               title="Verifiable credentials"
-              description="Issue certificates and badges for the completion of courses to prove students' skills"
+              description="Issue certificates and badges for the completion of courses to prove students' skills."
             />
             <ComponentCard
               icon={<StarIcon />}
               title="Reviews and reputation"
-              description="Reviews for courses and teachers aggregated in a unified reputation across platforms"
+              description="Reviews for courses and teachers aggregated in a unified reputation across platforms."
             />
           </div>
         </Container>
