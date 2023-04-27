@@ -1,9 +1,10 @@
-const title = "KnowledgeLayer - The open protocol for educational platforms";
+const title =
+  "KnowledgeLayer - The open protocol for building educational platforms";
 const description =
   "KnowledgeLayer is an open protocol and developer toolkit for building web3 educational platforms.";
-const url = "https://knowledgelayer-landing.vercel.app/";
+const url = "https://knowledgelayer.org/";
 
-const image = "https://knowledgelayer-landing.vercel.app/og-image.png";
+const image = "https://knowledgelayer.org/og-image.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
