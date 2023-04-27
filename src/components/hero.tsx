@@ -10,7 +10,7 @@ export const Hero = () => {
         <h1 className="max-w-[32rem] text-4xl font-bold">
           The toolkit for building web3 educational platforms
         </h1>
-        <p className="max-w-[28rem] text-lg text-base-content-neutral">
+        <p className="max-w-[18rem] text-lg text-base-content-neutral sm:max-w-[28rem]">
           Build on a solid foundation and focus on what matters for your edtech
           platform.
         </p>
