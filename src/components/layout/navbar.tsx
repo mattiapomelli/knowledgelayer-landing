@@ -10,6 +10,15 @@ export const Navbar = () => {
       <Container className="flex w-full items-center justify-between gap-4">
         <Logo className="hidden md:block" />
         <div className="flex items-center gap-2 md:gap-4">
+          <nav>
+            <a
+              href="https://github.com/knowledgelayer/knowledgelayer-contracts"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </nav>
           <ThemeToggle />
           <a
             href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"
