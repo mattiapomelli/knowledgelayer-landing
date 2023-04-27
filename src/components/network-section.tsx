@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Button } from "./basic/button";
 import { Container } from "./layout/container";
 
-export const VisionSection = () => {
+export const NetworkSection = () => {
   return (
     <section className="bg-accent text-base-content">
       <Container className="flex flex-col items-center gap-10 py-20 md:flex-row">

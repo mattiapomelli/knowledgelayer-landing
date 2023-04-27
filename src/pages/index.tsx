@@ -1,10 +1,11 @@
 import React from "react";
 
-import { ContactSection } from "@components/contact";
-import { FeaturesSection } from "@components/features-section";
+import { BenefitsSection } from "@components/benefits-section";
+import { ComponentsSection } from "@components/components-section";
+import { ContactSection } from "@components/contact-section";
 import { Hero } from "@components/hero";
 import { IntroducationSecion } from "@components/introduction-section";
-import { VisionSection } from "@components/vision-section";
+import { NetworkSection } from "@components/network-section";
 
 import type { NextPage } from "next";
 
@@ -13,8 +14,9 @@ const Home: NextPage = () => {
     <>
       <Hero />
       <IntroducationSecion />
-      <FeaturesSection />
-      <VisionSection />
+      <ComponentsSection />
+      <BenefitsSection />
+      <NetworkSection />
       <ContactSection />
     </>
   );
