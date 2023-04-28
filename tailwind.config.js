@@ -16,7 +16,7 @@ module.exports = {
         "base-content-neutral": "hsl(var(--bc) / 0.6)",
       },
       dropShadow: {
-        default: "3px 3px 0px",
+        default: "3px 3px 0px hsl(var(--bc))",
       },
     },
   },
