@@ -13,6 +13,10 @@
     U+2215;
 }
 
+:root {
+  @apply md:text-lg
+}
+
 body {
   @apply font-main;
 }
