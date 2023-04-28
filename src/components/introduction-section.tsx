@@ -23,10 +23,11 @@ export const IntroducationSecion = () => {
         </div>
         <div className="relative h-60 w-full md:hidden">
           <Image
-            src="/protocol-architecture-mobile.svg"
+            src="/protocol-architecture-mobile.png"
             layout="fill"
             alt="Protocol architecture"
             priority
+            objectFit="contain"
           />
         </div>
       </Container>
