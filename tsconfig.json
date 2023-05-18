@@ -23,6 +23,7 @@
       "@utils/*": ["utils/*"],
       "@icons/*": ["icons/*"],
       "@api/*": ["api/*"],
+      "@constants/*": ["constants/*"],
       "@types": ["types"],
     }
   },

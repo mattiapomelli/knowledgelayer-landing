@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { DOCS_URL } from "@constants/urls";
+
 import { Button } from "./basic/button";
 import { Container } from "./layout/container";
 
@@ -20,12 +22,8 @@ export const NetworkSection = () => {
             KnowledgeLayer provides a shared pool of learners, teachers and
             educational content that any application can plug into.
           </p>
-          <a
-            href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button>Read the manifesto</Button>
+          <a href={DOCS_URL} target="_blank" rel="noreferrer">
+            <Button>Start building</Button>
           </a>
         </div>
         <div>

@@ -1,3 +1,5 @@
+import { MANIFESTO_URL } from "@constants/urls";
+
 import { Button } from "./basic/button";
 import { Container } from "./layout/container";
 
@@ -13,11 +15,7 @@ export const BenefitsSection = () => {
           and reputation to your users thanks to the power of blockchain
           technology.
         </p>
-        <a
-          href="https://tiapome.notion.site/KnowledgeLayer-Manifesto-dc10fb32bfb34847a591894479f3107a"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={MANIFESTO_URL} target="_blank" rel="noreferrer">
           <Button>Read the manifesto</Button>
         </a>
       </Container>
