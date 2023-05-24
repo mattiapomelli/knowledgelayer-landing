@@ -49,6 +49,7 @@ module.exports = {
           "success-content": "#000000",
           "base-content": "#ffffff",
           "base-100": "#111111",
+          "base-300": "#2f3642",
           "--btn-text-case": "none",
           "--rounded-btn": "0.75rem",
         },
