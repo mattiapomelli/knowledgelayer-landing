@@ -33,15 +33,19 @@ export const Hero = () => {
           The toolkit for building web3 educational platforms
         </h1>
         <p className="max-w-[18rem] text-lg text-base-content-neutral sm:max-w-[26rem]">
-          {/* Build on a solid foundation and focus on what matters for your edtech
-          platform. */}
-          Get a step-by-step integration guide and start building on a solid
-          foundation.
+          Build on a solid foundation and focus on what matters for your edtech
+          platform.
+          {/* Get a step-by-step integration guide and start building on a solid
+          foundation. */}
         </p>
 
         <div className="flex flex-col items-center gap-4">
-          <form onSubmit={onSubmit} className="flex flex-col gap-2 sm:flex-row">
+          <form
+            onSubmit={onSubmit}
+            className="flex flex-col items-end gap-2 sm:flex-row"
+          >
             <Input
+              label="Get the integration guide"
               placeholder="Email"
               type="email"
               className="sm:min-w-[300px]"
