@@ -1,30 +1,30 @@
-// import { DOCS_URL } from "@constants/urls";
-import { useState } from "react";
-import { useForm } from "react-hook-form";
+// import { useState } from "react";
+// import { useForm } from "react-hook-form";
 
-import { useSignup } from "@hooks/use-signup";
+// import { useSignup } from "@hooks/use-signup";
+import { DOCS_URL } from "@constants/urls";
 import ExplosionGraphic from "@icons/explosion.svg";
 
 import { Button } from "./basic/button";
-import { Input } from "./basic/input";
+// import { Input } from "./basic/input";
 import { Container } from "./layout/container";
 
 export const Hero = () => {
-  const { signup, isLoading } = useSignup();
-  const [isSuccess, setIsSuccess] = useState(false);
+  // const { signup, isLoading } = useSignup();
+  // const [isSuccess, setIsSuccess] = useState(false);
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm<{ email: string }>();
+  // const {
+  //   register,
+  //   handleSubmit,
+  //   formState: { errors },
+  //   reset,
+  // } = useForm<{ email: string }>();
 
-  const onSubmit = handleSubmit(async (data) => {
-    await signup(data.email);
-    reset();
-    setIsSuccess(true);
-  });
+  // const onSubmit = handleSubmit(async (data) => {
+  //   await signup(data.email);
+  //   reset();
+  //   setIsSuccess(true);
+  // });
 
   return (
     <section className="relative">
@@ -39,7 +39,7 @@ export const Hero = () => {
           foundation. */}
         </p>
 
-        <div className="flex flex-col items-center gap-4">
+        {/* <div className="flex flex-col items-center gap-4">
           <form
             onSubmit={onSubmit}
             className="flex flex-col items-end gap-2 sm:flex-row"
@@ -62,11 +62,11 @@ export const Hero = () => {
               Will get back to you shortly! Check your email in a while 🎉
             </div>
           )}
-        </div>
+        </div> */}
 
-        {/* <a href={DOCS_URL} target="_blank" rel="noreferrer">
+        <a href={DOCS_URL} target="_blank" rel="noreferrer">
           <Button>Start building</Button>
-        </a> */}
+        </a>
         <ExplosionGraphic className="absolute left-[10%] bottom-[10%] h-14 w-14 md:bottom-[20%]" />
         <ExplosionGraphic className="absolute right-[-20px] top-[35%] h-12 w-12 rotate-[140deg] md:right-[8%]" />
         <ExplosionGraphic className="absolute top-[0%] left-[40%] h-12 w-12 rotate-12" />
