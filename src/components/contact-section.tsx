@@ -4,7 +4,7 @@ import { Container } from "./layout/container";
 export const ContactSection = () => {
   return (
     <section>
-      <Container className="flex flex-col items-center gap-6 py-28 text-center">
+      <Container className="flex flex-col items-center gap-8 py-32 text-center">
         <h3 className="max-w-[30rem] text-center text-3xl font-bold">
           Get in touch
         </h3>

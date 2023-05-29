@@ -6,7 +6,7 @@ import { Container } from "./layout/container";
 export const BenefitsSection = () => {
   return (
     <section>
-      <Container className="flex flex-col items-center gap-10 pt-28 pb-32">
+      <Container className="flex flex-col items-center gap-8 py-32">
         <h3 className="max-w-[34rem] text-center text-3xl font-bold">
           Powered by web3, serving the world
         </h3>
