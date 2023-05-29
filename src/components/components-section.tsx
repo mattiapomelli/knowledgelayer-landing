@@ -9,6 +9,7 @@ import { ReactNode } from "react";
 import ArrowDownGraphic from "@icons/arrow-down.svg";
 import ExplosionGraphic from "@icons/explosion.svg";
 
+import { BoxSection } from "./box-section";
 import { Container } from "./layout/container";
 
 interface ComponentCardProps {
@@ -66,20 +67,18 @@ export const ComponentsSection = () => {
         </Container>
       </section>
 
-      <section className="relative bg-accent py-24 text-base-content">
+      <BoxSection className="relative flex flex-col items-center">
         <ArrowDownGraphic className="absolute left-1/2 top-[-4.8rem] h-32 w-32 -translate-x-1/2" />
-        <Container className="relative flex flex-col items-center">
-          <div className="relative">
-            <p className="max-w-[30rem] text-center text-3xl">
-              Focus on what makes your platform
-              <b> stand out</b>
-            </p>
-            <ExplosionGraphic className="absolute top-24 -left-8 h-14 w-14 md:top-16" />
-            <ExplosionGraphic className="absolute -right-10 top-16 h-12 w-12 rotate-[140deg] md:top-10" />
-            <ExplosionGraphic className="absolute left-20 -top-16 h-12 w-12 rotate-12 md:left-36" />
-          </div>
-        </Container>
-      </section>
+        <div className="relative">
+          <p className="max-w-[30rem] text-center text-3xl">
+            Focus on what makes your platform
+            <b> stand out</b>
+          </p>
+          <ExplosionGraphic className="absolute top-24 -left-8 h-14 w-14 md:top-16" />
+          <ExplosionGraphic className="absolute -right-10 top-16 h-12 w-12 rotate-[140deg] md:top-10" />
+          <ExplosionGraphic className="absolute left-20 -top-16 h-12 w-12 rotate-12 md:left-36" />
+        </div>
+      </BoxSection>
     </>
   );
 };
