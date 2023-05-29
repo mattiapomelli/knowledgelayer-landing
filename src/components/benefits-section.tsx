@@ -1,4 +1,4 @@
-import { MANIFESTO_URL } from "@constants/urls";
+import { DOCS_URL } from "@constants/urls";
 
 import { Button } from "./basic/button";
 import { Container } from "./layout/container";
@@ -15,8 +15,8 @@ export const BenefitsSection = () => {
           and reputation to your users thanks to the power of blockchain
           technology.
         </p>
-        <a href={MANIFESTO_URL} target="_blank" rel="noreferrer">
-          <Button>Read the manifesto</Button>
+        <a href={DOCS_URL} target="_blank" rel="noreferrer">
+          <Button>Start building</Button>
         </a>
       </Container>
     </section>
