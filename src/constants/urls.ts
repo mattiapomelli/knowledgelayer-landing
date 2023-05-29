@@ -6,3 +6,5 @@ export const MANIFESTO_URL =
 
 export const GITHUB_URL =
   "https://github.com/knowledgelayer/knowledgelayer-contracts";
+
+export const UKNOW_URL = "https://github.com/mattiapomelli/uknow";
