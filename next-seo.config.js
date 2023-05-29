@@ -1,5 +1,4 @@
-const title =
-  "KnowledgeLayer - The open protocol for building educational platforms";
+const title = "KnowledgeLayer";
 const description =
   "KnowledgeLayer is an open protocol and developer toolkit for building web3 educational platforms.";
 const url = "https://knowledgelayer.org/";
