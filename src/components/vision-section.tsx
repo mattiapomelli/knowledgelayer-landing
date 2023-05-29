@@ -11,8 +11,8 @@ export const VisionSection = () => {
       <div>
         <Image
           src="/network.svg"
-          width="546px"
-          height="450px"
+          width={546}
+          height={450}
           alt="Network of learners and teachers"
         />
       </div>

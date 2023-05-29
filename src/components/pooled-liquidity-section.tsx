@@ -25,8 +25,8 @@ export const PooledLiquiditySection = () => {
       <div>
         <Image
           src="/pooled-liquidity.svg"
-          width="546px"
-          height="305px"
+          width={546}
+          height={305}
           alt="Network of learners and teachers"
         />
       </div>

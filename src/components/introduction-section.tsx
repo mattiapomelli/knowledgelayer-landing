@@ -15,18 +15,18 @@ export const IntroducationSecion = () => {
       <div className="relative hidden h-60 w-full md:block">
         <Image
           src="/protocol-architecture.svg"
-          layout="fill"
           alt="Protocol architecture"
+          fill
           priority
         />
       </div>
       <div className="relative h-60 w-full md:hidden">
         <Image
           src="/protocol-architecture-mobile.png"
-          layout="fill"
           alt="Protocol architecture"
+          fill
           priority
-          objectFit="contain"
+          className="object-contain"
         />
       </div>
     </BoxSection>
