@@ -2,6 +2,7 @@ const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: ["class", '[data-theme="dark"]'],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx}",
     "./src/components/**/*.{js,ts,jsx,tsx}",
@@ -35,6 +36,8 @@ module.exports = {
           "primary-content": "#000000",
           accent: "#BF9DF6",
           success: "#3cdea2",
+          neutral: "#dbdbdb",
+          "neutral-focus": "#dbdbdb",
           "--btn-text-case": "none",
           "--rounded-btn": "0.75rem",
         },

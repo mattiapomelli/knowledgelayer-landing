@@ -3,8 +3,7 @@ import { ButtonHTMLAttributes, forwardRef, ReactNode, Ref } from "react";
 import { twMerge } from "tailwind-merge";
 
 const colorClassname = {
-  primary:
-    "btn-primary border-primary-content border-2 hover:border-primary-content drop-shadow-default",
+  primary: "btn-primary",
   secondary: "btn-secondary",
   accent: "btn-accent",
   info: "btn-info",
@@ -45,7 +44,7 @@ const textColorClassname = {
 
 const variantClassname = {
   solid: "",
-  outline: "btn-outline",
+  outline: "btn-outline bg-base-100",
   ghost: "btn-ghost disabled:bg-transparent disabled:text-opacity-30",
   link: "btn-link disabled:bg-transparent disabled:text-opacity-30",
 };
@@ -111,6 +110,7 @@ export const Button = forwardRef(
             { "loading cursor-not-allowed pointer-events-auto": loading },
             { "gap-2": leftIcon || rightIcon },
             "focus:outline-none focus-visible:ring-4 focus:ring-opacity-30",
+            "border-primary-content border-2 hover:border-primary-content drop-shadow-default",
             className,
           ),
         )}
