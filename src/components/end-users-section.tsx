@@ -1,5 +1,8 @@
 import { AcademicCapIcon, StarIcon } from "@heroicons/react/24/outline";
 
+import { MANIFESTO_URL } from "@constants/urls";
+
+import { Button } from "./basic/button";
 import { Card } from "./basic/card";
 import { Container } from "./layout/container";
 
@@ -35,6 +38,14 @@ export const EndUsersSection = () => {
             className="flex-1"
           />
         </div>
+        <a
+          href={MANIFESTO_URL}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-4"
+        >
+          <Button>Read the manifesto</Button>
+        </a>
       </Container>
     </section>
   );
