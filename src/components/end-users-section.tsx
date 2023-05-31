@@ -21,7 +21,7 @@ export const EndUsersSection = () => {
         <div className="flex max-w-[52rem] flex-col gap-4 md:flex-row">
           <Card
             description="With KnowledgeLayer, your content gets automatically distributed on
-          any platform of the network. This means that you are able to reach a
+          all the platforms in the network. This means that you are able to reach a
           wider audience and monetize your content more effectively. Your
           reviews and reputation follow you everywhere."
             title="For educators"
