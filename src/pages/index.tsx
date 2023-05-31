@@ -4,6 +4,7 @@ import { BenefitsSection } from "@components/benefits-section";
 import { ComponentsSection } from "@components/components-section";
 import { ContactSection } from "@components/contact-section";
 import { DemoSection } from "@components/demo-section";
+import { EndUsersSection } from "@components/end-users-section";
 import { Hero } from "@components/hero";
 import { IntroducationSecion } from "@components/introduction-section";
 import { PooledLiquiditySection } from "@components/pooled-liquidity-section";
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
       <PooledLiquiditySection />
       <BenefitsSection />
       <VisionSection />
+      <EndUsersSection />
       <ContactSection />
     </>
   );

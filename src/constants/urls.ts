@@ -8,3 +8,5 @@ export const GITHUB_URL =
   "https://github.com/knowledgelayer/knowledgelayer-contracts";
 
 export const UKNOW_URL = "https://github.com/mattiapomelli/uknow";
+
+export const TYPEFORM_URL = "https://1u6y3jsyjdt.typeform.com/to/Vy29JdLS";
