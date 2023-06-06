@@ -54,7 +54,7 @@ export const ComponentsSection = () => {
       </section>
 
       <BoxSection className="relative flex flex-col items-center">
-        <ArrowDownGraphic className="absolute left-1/2 top-[-4.8rem] h-32 w-32 -translate-x-1/2" />
+        <ArrowDownGraphic className="absolute left-1/2 top-[-6rem] h-32 w-32 -translate-x-1/2" />
         <div className="relative">
           <p className="max-w-[30rem] text-center text-3xl">
             Focus on what makes your platform
