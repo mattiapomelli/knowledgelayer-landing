@@ -24,7 +24,7 @@ export const ComponentsSection = () => {
             Avoid building your backend from scratch. Reduce development costs
             and time, and go to market faster.
           </p>
-          <div className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="mb-6 grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2">
             <Card
               icon={<AcademicCapIcon />}
               title="Course listing and NFT-based sales"
