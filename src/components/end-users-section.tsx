@@ -14,7 +14,7 @@ export const EndUsersSection = () => {
           One profile, many platforms
         </h3>
         <p className="max-w-[36rem] text-center text-lg text-base-content-neutral">
-          With KnowledgeLayer, you have complete ownerhip of your profile,
+          With KnowledgeLayer, you have complete ownership of your profile,
           content and data. Forget about creating a new profile and starting
           from scratch every time you use a new platform.
         </p>
