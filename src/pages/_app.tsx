@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import { DefaultSeo } from "next-seo";
 import { ThemeProvider } from "next-themes";
 
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <ThemeProvider>
       <DefaultSeo {...SEO} />
       {getLayout(<Component {...pageProps} />)}
+      <Analytics />
     </ThemeProvider>
   );
 }
